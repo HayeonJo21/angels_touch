@@ -122,18 +122,16 @@ img {
     height: auto;
 }
 html {
-    height: 100%
-}
-body {
+    height: 100%;
 }
 
 /*Remove chrome Input Field’s Unwanted Yellow Background Color*/
 
-input: -webkit-autofill,
+/* input: -webkit-autofill,
 input: -webkit-autofill:hover,
 input: -webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0 100px white inset !important;
-}
+} */
 
 /*Input focus color removed*/
 
@@ -734,8 +732,7 @@ section#counter {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.53);
 }
-#testimonial .testimonial_header {
-}
+
 #testimonial .testimonial_header h2 {
     font-size: 36px;
     font-weight: 700;
@@ -759,8 +756,7 @@ section#counter {
 #blog p {
     display: inline-block;
 }
-#blog .latest_blog {
-}
+
 #blog .latest_blog h2 {
     padding-bottom: 20px;
     font-size: 36px;
@@ -1163,7 +1159,7 @@ ul.entry-meta {
     text-align: left;
 }
 .btn-primmary{
-    background-color: #569CF8
+    background-color: #569CF8;
     padding: 10px 30px;
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
@@ -1230,4 +1226,18 @@ ul.entry-meta {
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(197, 194, 194);
+}
+
+.logo_container{
+    width: 200px;
+    height: 54px;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo_img{
+    position: absolute;
+    top: auto;
+    width: 100%;
+    height: 100%;
 }
