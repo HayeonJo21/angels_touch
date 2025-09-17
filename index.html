@@ -444,26 +444,6 @@
             <!--End of row-->
             <div class="row">
                 <div class="col-md-6">
-                    <div class="office">
-                        <div class="title">
-                            <h5>서비스 신청 및 문의</h5>
-                        </div>
-                        <div class="office_location">
-                            <div class="address">
-                                <i class="fa fa-map-marker"><span>방문: 경기도 화랑로55 에이비씨 </span></i>
-                            </div>
-                            <div class="phone">
-                                <i class="fa fa-phone"><span>전화: 010-1234-5678</span></i>
-                            </div>
-                            <div class="email">
-                                <i class="fa fa-envelope"><span>이메일: youremail@mail.com</span></i>
-                            </div>
-                            <div class="card">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
                     <div class="msg">
                         <div class="msg_title">
                             <h5>예상비용 확인</h5>
@@ -483,42 +463,41 @@
                                                 <option value="쓰레기집청소">쓰레기집 청소</option>
                                             </select>
                                         </div>
-                                    </div>
+                                    </div><p>&nbsp;</p>
                                     <div class="form-group">
                                         <div class="col-sm-6">
                                             <div data-mdb-input-init class="form-outline" style="width: 22rem;">
                                                 <label class="form-label" for="customRange1">쓰레기, 폐기물의 수량</label>
-                                                <input value="1" type="number" name="trash" id="customRange1" class="form-control" min="0" max="49" step="1"/>
+                                                <input value="0" type="number" name="trash" id="customRange1" class="form-control" min="0" max="49" step="1"/>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div data-mdb-input-init class="form-outline" style="width: 22rem;">
                                                 <label class="form-label" for="customRange2">중,소형 가전 및 가구 수량</label>
-                                                <input value="1" type="number" name="medium_sized" id="customRange2" class="form-control" min="0" max="49" step="1"/>
+                                                <input value="0" type="number" name="medium_sized" id="customRange2" class="form-control" min="0" max="49" step="1"/>
                                             </div>
                                         </div>
                                     </div>
-
+                                    <p>&nbsp;</p>
                                     <div class="form-group">
                                         <div class="col-sm-6">
                                             <div data-mdb-input-init class="form-outline" style="width: 22rem;">
                                                 <label class="form-label" for="customRange3">대형 가전 및 가구 수량</label>
-                                                <input value="1" type="number" name="large_sized" id="customRange3" class="form-control" min="0" max="49" step="1"/>
+                                                <input value="0" type="number" name="large_sized" id="customRange3" class="form-control" min="0" max="49" step="1"/>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div data-mdb-input-init class="form-outline" style="width: 22rem;">
                                                 <label class="form-label" for="customRange4">냉장고, 음식물 쓰레기 수량</label>
-                                                <input value="1" type="number" name="food_waste" id="customRange4" class="form-control" min="0" max="49" step="1"/>
+                                                <input value="0" type="number" name="food_waste" id="customRange4" class="form-control" min="0" max="49" step="1"/>
                                             </div>
                                         </div>
                                     </div>
                             </div>
-                            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                            <!-- <hr style="height:2px;border-width:0;color:gray;background-color:gray">
                             <br/><br/>
                             <h3 style="text-align:center;">
-                                <!-- From Uiverse.io by Yaya12085 -->
-                                <div class="stats shadow">
+                                 <div class="stats shadow">
                                     <div class="stat">
                                         <div class="stat-title">예상 금액</div>
                                         <div class="stat-value" id="calcResultValue">33,000원</div>
@@ -526,12 +505,85 @@
                                     </div>
 
                                 </div>
-                            </h3>
+                            </h3> -->
                         </form>
                         </div>
                     </div>
                 </div>
+            <div class="col-md-6">
+                     <div class="msg_title">&nbsp; </div>
+    <div class="pack_card">
+          <div class="pack_name">예상 견적 안내사항</div>
+          <p class="description">선택한 옵션에 대한 예상 비용입니다. <br/> 실제 비용은 상담 후 확정됩니다.</p>
+
+          <div class="lists">
+            <div class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span>어떤 종류의 서비스를 이용하실지 선택합니다. </span>
             </div>
+            <div class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+              <span>쓰레기, 폐기물: 박스, 우체국5호 / 봉투 및 마대자루 종량제 100L 기준 <span></span></span>
+            </div>
+            <div class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+
+              <span>중,소형 가전 및 가구 수량: 수납장, 테이블, 의자 등의 중소형 가구</span>
+            </div>
+            <div class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+
+              <span>대형 가전 및 가구 수량: 티비, 세탁기, 책상 등의 대형가구</span>
+            </div>
+            <div class="list">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+
+              <span>냉장고, 음식물 쓰레기: 50L 봉투 / 마대 기준 / 분류작업 없이 수거</span>
+            </div>
+            
+        </div>
+        <hr>
+        <div class="bottom">
+          <div class="price_container">
+            <span class="price_label">예상 비용</span>&nbsp;&nbsp;
+            <span class="price" id="calcResultValue">31,000원</span>
+          </div>
+        </div>
+      </div>
+            </div>
+
+
+            </div>
+                <!-- <div class="col-md-6">
+                    <div class="office">
+                        <div class="title">
+                            <h5>서비스 신청 및 문의</h5>
+                        </div>
+                        <div class="office_location">
+                            <div class="address">
+                                <i class="fa fa-map-marker"><span>방문: 경기도 화랑로55 에이비씨 </span></i>
+                            </div>
+                            <div class="phone">
+                                <i class="fa fa-phone"><span>전화: 010-1234-5678</span></i>
+                            </div>
+                            <div class="email">
+                                <i class="fa fa-envelope"><span>이메일: youremail@mail.com</span></i>
+                            </div>
+                            <div class="card">
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
             <!--End of col-md-6-->
         </div>
         <!--End of row-->
