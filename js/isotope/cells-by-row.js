@@ -22,9 +22,9 @@
     );
   } else {
     // browser global
-    factory(
-      window.Isotope.LayoutMode
-    );
+    // factory(
+    //   window.Isotope.LayoutMode
+    // );
   }
 
 }( window, function factory( LayoutMode ) {
